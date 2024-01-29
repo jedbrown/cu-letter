@@ -22,7 +22,7 @@ to produce your signed output letter in `out/main.pdf`.
 
 ## Fonts
 
-We use `xelatex` (see `$pdf_mode = 5` in `latexmkrc`) and thus have access to OTF/TTF
+We use `lualatex` (see `$pdf_mode = 4` in `latexmkrc`) and thus have access to OTF/TTF
 fonts (unlike classic latex/pdflatex).
 
 [Nimbus Sans](https://en.wikipedia.org/wiki/Nimbus_Sans) is an open derivative of
